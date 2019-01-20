@@ -1,15 +1,14 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "demo": "npm link puppeteer && ts-node hello.ts"
   },
-  "dependencies": {
-    "lodash": "4.17.5"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/lodash": "4.14.106",
     "@types/puppeteer": "1.11.1",
-    "puppeteer": "1.11.0",
     "ts-node": "7.0.0",
     "typescript": "3.0.1"
+  },
+  "peerDependencies": {
+    "puppeteer": "*"
   }
 }
