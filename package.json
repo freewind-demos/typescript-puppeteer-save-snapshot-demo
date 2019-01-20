@@ -2,7 +2,6 @@
   "scripts": {
     "demo": "npm link puppeteer && ts-node hello.ts"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/puppeteer": "1.11.1",
     "ts-node": "7.0.0",
